@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Il Ristorantino Italiano</title>
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Verdana&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff7f0;
+      color: #333;
+    }
+    header {
+      background-color: #fff7f0;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 2px solid #ddd;
+    }
+    header h1 {
+      font-family: 'Georgia', serif;
+      font-size: 3rem;
+      color: #b22222;
+    }
+    header h3 {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #b22222;
+      margin-bottom: 10px;
+    }
+    .menu-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .menu-item .title {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .menu-item .price {
+      color: #b22222;
+      font-size: 1rem;
+    }
+    .description {
+      width: 100%;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 5px;
+    }
+    footer {
+      background-color: #f6f6f6;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 40px auto;
+      max-width: 900px;
+    }
+    @media (max-width: 600px) {
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu-item .price {
+        margin-top: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍝 Il Ristorantino Italiano</h1>
+    <h3>🇮🇹 Authentic Italian Cuisine • Fine Wines • Craft Beer 🍷</h3>
+  </header>
+
+  <section>
+    <h2>🥖 Antipasti</h2>
+    <div class="menu-item"><div class="title">Tagliere di Salumi e Formaggi</div><div class="price">€15</div><div class="description">Cuts Meat and Cheeses</div></div>
+    <div class="menu-item"><div class="title">Polpo All'Aglio</div><div class="price">€18</div><div class="description">Octopus in Garlic</div></div>
+    <div class="menu-item"><div class="title">Impepata di Cozze</div><div class="price">€16</div><div class="description">Mussels Sauté</div></div>
+    <div class="menu-item"><div class="title">Sauté di Cozze e Vongole</div><div class="price">€18</div><div class="description">Mussels and Clams Sauté</div></div>
+    <div class="menu-item"><div class="title">Bruschetta di Bufala</div><div class="price">€10</div><div class="description">Bruschetta with Bufala</div></div>
+
+    <h2>🍝 Pasta</h2>
+    <div class="menu-item"><div class="title">Linguine allo Scoglio</div><div class="price">€18</div><div class="description">Seafood linguine</div></div>
+    <div class="menu-item"><div class="title">Linguine Lipari</div><div class="price">€18</div><div class="description">Swordfish, black olives, capers, cherry tomatoes</div></div>
+    <div class="menu-item"><div class="title">Linguine Pesce Spada e crema di pistacchio</div><div class="price">€18</div><div class="description">Swordfish and pistachio</div></div>
+    <div class="menu-item"><div class="title">Ravioli con Funghi e crema  di Tartufo</div><div class="price">€15</div><div class="description">mushrooms and Truffle Cream</div></div>
+
+    <h2>🍚 Risotti</h2>
+    <div class="menu-item"><div class="title">Risotto Al Frutti di Mare</div><div class="price">€18</div><div class="description">Seafood risotto</div></div>
+    <div class="menu-item"><div class="title">Risotto Funghi e Crema di Tartufo</div><div class="price">€15</div><div class="description">Mushrooms & truffle cream</div></div>
+    <div class="menu-item"><div class="title">Risotto Salmone ed Asparagi</div><div class="price">€16</div><div class="description">Salmon and Asparagus</div></div>
+
+    <h2>🐟 Pesce</h2>
+    <div class="menu-item"><div class="title">Grigliata Michelangelo</div><div class="price">€29.50</div><div class="description">Grilled mixed fish</div></div>
+    <div class="menu-item"><div class="title">Orata alla Griglia</div><div class="price">€17.50</div><div class="description">Grilled sea bream</div></div>
+    <div class="menu-item"><div class="title">Orata alla Mediterranea</div><div class="price">€18.50</div><div class="description">Fillet sea-bream with Whole Black olives,Capers and Cherry Tomatoes</div></div>
+    <div class="menu-item"><div class="title">Filetto di crata e vellutata di Asparagi</div><div class="price">€18.50</div><div class="description">Fillet sea-bream Asparagus velvet</div></div>
+    <div class="menu-item"><div class="title">Gamberoni Reali Speziati</div><div class="price">€18</div><div class="description">Grilled king prawns Flavoring</div></div>
+    <div class="menu-item"><div class="title">Salmone al Cartoccio</div><div class="price">€18.50</div><div class="description">Baked salmon</div></div>
+    <div class="menu-item"><div class="title">Pesce Spada alla Sarmoriglio</div><div class="price">€18</div><div class="description">Grilled swordfish</div></div>
+    <div class="menu-item"><div class="title">Frittura Mista</div><div class="price">€20</div><div class="description">Mixed fried seafood</div></div>
+
+    <hr />
+
+    <h2>🦃 Spirits</h2>
+    <div class="menu-item"><div class="title">Jack Daniel's</div><div class="price">€5</div></div>
+    <div class="menu-item"><div class="title">J&B</div><div class="price">€5</div></div>
+    <div class="menu-item"><div class="title">Grappa Barricata Invecchiata</div><div class="price">€6</div></div>
+    <div class="menu-item"><div class="title">Absolut Vodka</div><div class="price">€5</div></div>
+    <div class="menu-item"><div class="title">Frangelico</div><div class="price">€5</div></div>
+    <div class="menu-item"><div class="title">Baileys</div><div class="price">€5</div></div>
+    <div class="menu-item"><div class="title">Black Label</div><div class="price">€5</div></div>
+    <div class="menu-item"><div class="title">Rum Captain Morgan</div><div class="price">€5</div></div>
+    <div class="menu-item"><div class="title">Jameson</div><div class="price">€5</div></div>
+
+    <h2>🥤 Drinks</h2>
+    <div class="menu-item"><div class="title">Soft Drinks (0.33 ltr)</div><div class="price">€2.5</div></div>
+    <div class="menu-item"><div class="title">Still/Sparkling Water (0.75 ltr)</div><div class="price">€3.5</div></div>
+    <div class="menu-item"><div class="title">Orange/Apple Juice</div><div class="price">€3</div></div>
+
+    <h2>🍻 Beers</h2>
+    <div class="menu-item"><div class="title">Cisk (0.5 ltr)</div><div class="price">€3.5</div></div>
+    <div class="menu-item"><div class="title">Ichnusa non filtrata (0.33 ltr)</div><div class="price">€5</div></div>
+
+    <h2>🍻 Cane Nero Craft Beers</h2>
+    <div class="menu-item"><div class="title">CAUTHA</div><div class="price">€5</div><div class="description">Alc. 5.0% • Plato 12.3</div></div>
+    <div class="menu-item"><div class="title">NETHUNS</div><div class="price">€5</div><div class="description">Alc. 7.3% • Plato 16.2</div></div>
+    <div class="menu-item"><div class="title">MARIA</div><div class="price">€5</div><div class="description">Alc. 5.2% • Plato 13.0</div></div>
+    <div class="menu-item"><div class="title">IPA</div><div class="price">€5</div><div class="description">Alc. 5.5% • Plato 13.5</div></div>
+    <div class="menu-item"><div class="title">GALATEA</div><div class="price">€8</div><div class="description">Alc. 6.5% • Plato 14.5</div></div>
+  </section>
+
+  <hr />
+
+  <footer>
+    <p><strong>🍻 Cane Nero Brewery</strong></p>
+    <p>📍 Via I Maggio, 249, Badia Agnano, Bucine, Arezzo, Tuscany</p>
+    <p>🌐 <a href="http://www.birracanenero.it" target="_blank">birracanenero.it</a></p>
+    <p>📱 Instagram / Facebook: <strong>@birrificiocanenero</strong></p>
+    <p style="margin-top:10px;color:#b22222;">💬 All Fish main courses are served with mixed salad.</p>
+  </footer>
+</body>
+</html>
